@@ -85,7 +85,7 @@ array([[1.8638741 , 6.3193707 , 1.7041886 ],
 [p208p2002/Self-Attention-cacultate-with-numpy](https://github.com/p208p2002/Self-Attention-cacultate-with-numpy)
 
 
-### REFs
+### Refs
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 - [illustrated-self-attention](https://towardsdatascience.com/illustrated-self-attention-2d627e33b20a)
 - [Attention-PyTorch](https://github.com/EvilPsyCHo/Attention-PyTorch)
