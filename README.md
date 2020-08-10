@@ -82,7 +82,7 @@ array([[1.8638741 , 6.3193707 , 1.7041886 ],
 ```
 
 #### Jupyter Notebook Sample Code
-[p208p2002/Self-Attention-cacultate-with-numpy](https://github.com/p208p2002/Self-Attention-cacultate-with-numpy)
+[p208p2002/Self-Attention-cacultate-with-numpy](https://github.com/p208p2002/Self-Attention-cacultate-with-numpy/blob/master/Self-Attention-Caculate.ipynb)
 
 
 ### Refs
