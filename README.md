@@ -3,7 +3,7 @@
 ### Attention 公式
 ![file](https://github.com/p208p2002/Self-Attention-cacultate-with-numpy/blob/master/attention.png?raw=true)
 
-公式中的(Q)uerys, (K)eys, (V)alues可以視為一種representations,他們各自對應一組權重，模型的目的就是去學習權重
+公式中的(Q)uerys, (K)eys, (V)alues,他們各自對應一組權重，模型的目的就是去學習權重
 
 而√dk則是scaling factor, Q或K的維度
 
