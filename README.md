@@ -70,7 +70,7 @@ query_representations_dim = np.array([float(query_representations.shape[0])**0.5
 [1.7320508]
 '''
 ```
-#### Calculate Attention scores
+#### Calculate Attention scores(token與其他token的注意力分數)
 ```python
 attention_score = softmax(np.divide(query_representations.dot(key_representations.transpose()),query_representations_dim),axis=1)
 '''
@@ -83,9 +83,9 @@ attention_score = softmax(np.divide(query_representations.dot(key_representation
 ```python
 atten = attention_score.dot(value_representations)
 '''
-array([[1.8638741 , 6.3193707 , 1.7041886 ],
-       [1.9991105 , 7.8141265 , 0.27347228],
-       [1.9925548 , 7.479635  , 0.73587704]], dtype=float32)
+[[1.8638741 , 6.3193707 , 1.7041886 ]
+ [1.9991105 , 7.8141265 , 0.27347228]
+ [1.9925548 , 7.479635  , 0.73587704]]
 '''
 ```
 
