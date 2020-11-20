@@ -70,10 +70,18 @@ query_representations_dim = np.array([float(query_representations.shape[0])**0.5
 [1.7320508]
 '''
 ```
-#### Calculate attention scores
+#### Calculate Attention scores
 ```python
-softmax(np.divide(query_representations.dot(key_representations.transpose()),query_representations_dim),axis=1)\
-    .dot(value_representations)
+attention_score = softmax(np.divide(query_representations.dot(key_representations.transpose()),query_representations_dim),axis=1)
+'''
+[[1.3612579e-01 4.3193707e-01 4.3193707e-01]
+ [8.9044782e-04 9.0884298e-01 9.0266980e-02]
+ [7.4448888e-03 7.5470752e-01 2.3784746e-01]]
+'''
+```
+#### Calculate Attention
+```python
+atten = attention_score.dot(value_representations)
 '''
 array([[1.8638741 , 6.3193707 , 1.7041886 ],
        [1.9991105 , 7.8141265 , 0.27347228],
