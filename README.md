@@ -18,7 +18,7 @@ V = V * V_Weight
 
 ### Self-Attention Score
 #### 輸入
-inputs 可以視為一句話經過encode的結果，每一個input則為其單詞(或token)
+inputs 可以視為一句話經過encode的結果，每一個input則為其單詞(或token)的embedding
 ```python
 input_1 = np.array([1, 0, 1, 0], dtype='float32')
 input_2 = np.array([0, 2, 0, 2], dtype='float32')
